@@ -1,0 +1,15 @@
+
+
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: #B0B435;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+.footer-info{
+    background-color: black;
+}
+.copyright-bg{
+    background-color: rgb(15, 15, 15);
+}
