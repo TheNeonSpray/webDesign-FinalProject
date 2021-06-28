@@ -33,13 +33,14 @@
 
                 <ul class="nav  ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link home-color" href="./index.html">HOME <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./product-details.html">Products </a>
+                        <a class="nav-link" href="./product-details.html">PRODUCTS </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact-page.html">Contact Us </a>
+                        <a class="nav-link" href="./contact-page.html">CONTACT US </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -49,30 +50,52 @@
             </div>
         </nav>
         <!-- END OF NAVBAR -->
+
     </header>
     <main>
-       
+        <div class="banner d-flex align-items-center p-4">
+            <p class="h1 text-light font-weight-bolder">Product Details</p>
+        </div>
+        <div class="container p-5">
+            <div class="d-flex flex-column flex-md-row align-items-md-center my-5">
+                <div class="col-sm-12 col-md-6  col-lg-5 d-flex justify-content-center py-lg-5 p-sm-4"><img src="./img/img-pro-04.jpg" alt=""></div>
+                <div class="col col-sm-12 col-md-6 col-lg-7 py-lg-5 p-sm-5 col-margin-top">
+                    <p class="h3">The sweetest fruits</p>
+                    <div style="overflow: hidden;">
+                        <p class="d-inline">$60.00</p>
+                        <p class="green-icon font-weight-bold d-inline h5">$40.79</p>
+                    </div>
+                    <p class="lead">Description:</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quae quidem accusamus
+                        dolorum dolores quos ullam ipsum totam cumque esse necessitatibus vero modi ab non reiciendis
+                        quibusdam placeat enim</p>
+                    <hr class="hr-details">
+                    <button type="button" class="btn btn-success">Buy</button>
+                    <button type="button" class="btn btn-success">Add to cart</button>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="justify-content-center">
+
+    <!-- START OF FOOTER -->
+    <footer class="justify-content-around">
         <div class="row footer-info p-5 text-light">
             <div class="col-lg-4">
-                <h5>Horarios de atención</h5>
-                <hr>
+                <h5 class="tittle-bottom-line">Horarios de atención</h5>
                 <p>Lunes-Viernes: 08:00am a 05:00pm</p>
                 <p>Sábado: 10:00am a 08:00pm</p>
                 <p>Domingo: Cerrado</p>
             </div>
             <div class="col-lg-4">
-                <label for="newsletter" class="h5">Newsletter</label>
-                <hr>
+                <label for="newsletter" class="h5 tittle-bottom-line">Newsletter</label>
                 <br>
-                <input type="email" name="newsletter" id="newsletter" placeholder="Email Address*">
+                <input type="email" name="newsletter" id="newsletter" class="input-placeholder" placeholder="">
                 <br>
-                <button type="submit" class="btn btn-success">ENVIAR</button>
+                <br>
+                <button type="submit" class="btn btn-success">SEND</button>
             </div>
             <div class="col-lg-4">
-                <h5>Redes Sociales</h5>
-                <hr>
+                <h5 class="tittle-bottom-line">Redes Sociales</h5>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <i class="fab fa-facebook-square d-lg-inline border border-light p-2"></i>
                 <i class="fab fa-twitter d-lg-inline border border-light p-2"></i>
@@ -91,6 +114,8 @@
         </div>
         <!-- COPYRIGHT -->
     </footer>
+    <!-- END OF FOOTER -->
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
